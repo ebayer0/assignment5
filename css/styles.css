@@ -1,0 +1,167 @@
+body {
+    color: whitesmoke;
+    background: skyblue;
+    
+    font-family: "Times New Roman";
+    font-size: 18px;
+    text-align: center
+}
+
+li {
+    text-align: left
+}
+
+.multicolumn__container{
+    display: flex; 
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 0px 12px 5px deepskyblue;
+    text-align: center;
+  
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.red-span {
+    color: red;
+}
+
+ul {
+    padding-left: 1;
+    
+}
+
+p { 
+    font-size: 20px;
+    text-align: left
+}
+
+
+li {
+    font-style: italic;
+
+}
+
+
+.idea1  {
+    padding: 10px 10px 10px 10px;
+    border: 5px solid;
+    margin: 0 auto 0 auto;
+    width: 89%
+/*
+    margin: 0 auto 0 auto;
+    width: 80%;
+*/
+    
+    /* margin-left: 20px;
+    margin-right: 20px;
+    
+    */
+}
+
+h1:hover {
+    background-color: yellow;
+    
+}
+
+nav {
+    padding: 10px 10px 10px 10px;
+    text-align: left
+}
+
+.flexboxmasterswitch {
+    display: flex;
+/*     flex-direction: column;*/
+}
+
+.diff-font {
+    font-family: cursive;
+}
+
+
+/*
+header nav ul {
+    display: flex;
+justify-content: flex-end;
+}
+*/
+
+
+header nav li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+a:hover {
+    color: deepskyblue;
+}
+
+footer {
+    text-align: center
+}
+
+@media screen and (max-width: 30rem) {
+    header, 
+    main, 
+    footer {
+        flex-direction: column;
+    }    
+}
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+}
+
+html {
+    color: #ccc;
+}
+
+body {
+/*    min-height: 100vh;*/
+}
+
+h1 {
+    color: #fff;
+/*    text-transform: uppercase; */
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    font-size: 1.2em;
+    transition: background-color .3s, color .3s;
+    text-decoration: none;
+/*    text-transform: uppercase; */
+}
+
+a:hover {
+    color: #aaa;
+}
+
+
+/*
+@media screen and (max-width: 40rem) {
+    .container,
+    header, 
+    main, 
+    footer {
+        flex-direction: column;
+    }    
+*/
+}
+
+ul {
+    padding-left: 0;
+}
+
+
